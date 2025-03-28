@@ -18,3 +18,4 @@ CREATE TABLE Compras (
     NomeLivro VARCHAR(255), -- Nome do livro
     FOREIGN KEY (ClienteID) REFERENCES Clientes(ID) -- Referencia Clientes.ID
 );
+SELECT * FROM Clientes
